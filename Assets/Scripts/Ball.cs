@@ -21,13 +21,6 @@ public class Ball : MonoBehaviour
         _gameManager = GameObject.FindObjectOfType<GameManager>();
         _meshRenderer = GetComponent<MeshRenderer>();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
     private void OnCollisionEnter(Collision other)
     {
 
